@@ -27,7 +27,7 @@
 	<?php if ( get_header_image() && is_front_page() ) : ?>
 		<figure class="header-image">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<?php the_header_image_tag(); ?> 
+				<?php the_header_image_tag(); ?> <!-- Add custom header image to header.php -->
 			</a>
 		</figure> <!-- .header-image -->
 	<?php endif // End header image check.	?>
